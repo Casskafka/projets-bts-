@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&family=Work+Sans:wght@300&display=swap');
+body{
+    background-image: url(lbg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-form {
+    background-color: #fcfcfc;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+
+
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.btn-login {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 8%;
+}
+
+.btn-login:hover {
+    background-color: #333;
+}
+
+.login-form p {
+    margin-top: 20px;
+}

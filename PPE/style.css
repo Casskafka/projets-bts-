@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Archivo:wght@200&family=Capriola&family=Changa+One:ital@0;1&family=Jost&family=Lexend&family=Prata&family=Public+Sans:wght@100;300&family=Syne:wght@500&family=Work+Sans:wght@300;800&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Utilise toute la hauteur de l'écran */
+}
+
+.sec1 {
+    background-color: rgb(255, 255, 255); /* Ou la couleur de fond de votre choix */
+    height: 280%;
+    width: 100%;
+    position: absolute;
+    top: 110%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4cm;
+    color: white;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to top, rgba(169, 169, 169, 0) 0%, rgba(0, 0, 0, 0.664) 100%);
+}
+
+.navbar .logo img {
+    max-width: 100%;
+    padding-left: 5% ;
+}
+
+.nav-links {
+    list-style: none;
+    padding: ;
+    margin: 6%;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 4px 12px;
+}
+
+.nav-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-links a:hover {
+    color: #ffffffaa;
+}
+
+
+
+
+
+
+.reservation-box {
+    font-size: 70%;
+    display: flex;
+    background-color: #fefefe;
+    padding: 0.8%;
+    position: absolute;
+    top: 78%;
+    left: 5%;
+    
+    gap: 14px;
+   width: 1300px;
+   margin: 0 auto;
+    align-items: flex-end; /* Aligne les éléments en bas */
+}
+.input-group {
+    flex: 1;
+    min-width: 150px;
+    display: flex;
+    border: solid 1.6px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-color: #bbbbbb;
+
+    flex-direction: column;
+}
+
+.input-group label {
+    display: block;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 1px;
+    border: none;
+    align-items: left ;
+    margin-left: 6%;
+
+}
+
+.input-group input {
+    width: calc(100% - 28px);
+    padding: 14px;
+    background-color: rgba(255, 255, 255, 0.609);
+    border: none;
+    border-radius: 5px;
+    color: #555;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.input-group::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -5px;
+    width: 1px;
+    background-color: #ccc;
+}
+
+.rechercher {
+    background-color: #000; /* Couleur de fond noire */
+    color: #fff; /* Couleur du texte en blanc */
+    border: none;
+    padding: 18px 26px; /* Ajustez les espaces intérieurs selon vos préférences */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Ajoutez des coins arrondis si désiré */
+}
+
+.rechercher:hover {
+    background-color: #333; /* Couleur de survol plus foncée */
+}
+
+
+.pageac {
+    font-family: 'Work Sans', sans-serif;
+    color: #fefefe;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+font-size: 350%;
+}
+
+.page{
+    font-family: 'Work Sans', sans-serif;
+    color: #3f3f3f;
+    position: absolute;
+    font-weight: 200;
+    left: 29%;
+    font-size: 100%;
+
+
+}
+
+.sec1 h1{
+
+    font-family: 'Work Sans', sans-serif;
+    color: #000000;
+    position: absolute;
+    font-weight: 700;
+    top: 8%;
+    left: 8%;
+font-size: 260%;
+    
+}
+
+.sec1 h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: #000000;
+    position: absolute;
+    top: 10%;
+    font-weight: 200;
+    left: 46%;
+    font-size: 180%;
+    
+}
+
+.image1{
+
+    border-radius: 1%;
+    position: absolute;
+    top: 24%;
+    left: 8%;
+
+}
+.image2{
+    border-radius: 1%;
+    position: absolute;
+    top: 30%;
+    left: 52% ;
+
+}
+
+.image4{
+
+    border-radius: 1%;
+    position: absolute;
+    top: 46%;
+    left: 8%;
+
+}
+.image3{
+    border-radius: 1%;
+    position: absolute;
+    top: 52%;
+    left: 52% ;
+
+}
+
+.la{
+
+    position: absolute;
+    top: 23%;
+    left: 52% ;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+    color: #000000;
+
+
+}
+
+.lo{
+
+    position: absolute;
+    top: 67%;
+    left: 8% ;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+    color: #000000;
+
+
+}
+
+.sec2{
+    background-color: #ffffff;
+    position: absolute;
+    top: 316%;
+    width: 98.9vw;
+    height:120vh ;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h4{
+    font-weight: 550;
+    font-size: 130%;
+}
+
+p{
+    font-size: 120%;
+}
+
+.lux{
+    font-size: 300%;
+    position: absolute;
+    left: 8%;
+    top: 13%;
+
+}
+
+.time {
+    position: absolute;
+    left: 8%;
+    top: 36%;
+
+}
+
+.bell {
+
+    position: absolute;
+    left: 36%;
+    top: 36%;
+
+}
+.bed{
+     
+
+        position: absolute;
+        left: 68%;
+        top: 36%;
+    
+    
+    
+}
+
+
+.aa {
+    position: absolute;
+    left: 8%;
+    top: 64%;
+
+}
+
+.aaa {
+
+    position: absolute;
+    left: 36%;
+    top: 64%;
+
+}
+.aaaa{
+     
+
+        position: absolute;
+        left: 68%;
+        top: 64%;
+    
+    
+    
+}
+
+
+.trait{
+    color: #d2d2d2;
+    position: absolute;
+    top: 4%;
+    left: 15%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+
+    
+}
+
+
+.sec3{
+    background-color: #151515;
+    position: absolute;
+    top: 435%;
+    width: 98.9vw;
+    height:120vh ;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+.gast{
+    position: absolute;
+        left: 8%;
+        top: 40%;
+        border-radius: 2%;
+    
+
+}
+
+.voitu{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    border-radius: 2%;
+
+}
+
+.enf{
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    border-radius: 2%;
+
+
+}
+
+.mena{
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    border-radius: 2%;
+
+
+}
+
+
+.confort{
+    font-family: 'Work Sans', sans-serif;
+    color: #fffefe;
+    position: absolute;
+    font-weight: 700;
+    top: 3%;
+    left: 20%;
+    font-size: 350%;
+
+}
+
+.confort1{font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 17%;
+    font-weight: 200;
+    left: 18%;
+    font-size: 150%;}
+
+
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-container img {
+        transition: transform 0.3s, filter 0.3s;
+    }
+
+    .image-container img:hover {
+        transform: scale(0.9);
+        filter: brightness(70%);
+    }
+
+    
+    .cont {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cont img {
+        transition: transform 0.3s, filter 0.3s;
+    }
+
+    .cont img:hover {
+        transform: scale(0.9);
+        filter: brightness(70%);
+    }
+
+
+
+    .sec4{
+        height: 170vh;
+        width: 99vw;
+        background: #ffffff;
+        position: absolute;
+        top: 556% ;
+
+
+
+
+    }
+
+
+    .maison1{
+        position: absolute;
+        left: 5%;
+        top: 30%;
+        border-radius: 2%;
+    
+    }
+    
+    .maison2{
+        position: absolute;
+        left: 35.5%;
+        top: 30%;
+        border-radius: 2%;
+    
+    
+    }
+    
+    .maison3{
+        position: absolute;
+        left: 66%;
+        top: 30%;
+        border-radius: 2%;
+    
+    
+    }
+
+.pop{
+
+    position: absolute;
+    top: 8%;
+    left: 5% ;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 300%;
+    color: #000000;
+
+}
+
+
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.images img:hover {
+    transform: scale(0.9);
+    filter: brightness(70%);
+}
+
+
+
+
+.maison4{
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    border-radius: 2%;
+
+}
+
+.maison5{
+    position: absolute;
+    left: 35.5%;
+    top: 65%;
+    border-radius: 2%;
+
+
+}
+
+.maison6{
+    position: absolute;
+    left: 60%;
+    top: 65%;
+    border-radius: 2%;
+
+
+}
